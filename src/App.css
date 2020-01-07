@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: white;
   color: maroon;
+  font-size: 3rem;
+  font-family: 'Odibee Sans', cursive;
 }
 
 .App-logo {
@@ -25,9 +27,13 @@
   color: #61dafb;
 }
 
-.Photo {
-  width: 100vw;
+img {
+  width: 60vw;
+  border: 3px solid black;
+  border-radius: 5%;
+  box-shadow: 5px 8px black;
 }
+
 
 @keyframes App-logo-spin {
   from {
